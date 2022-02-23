@@ -1,0 +1,50 @@
+body {
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.3;
+    background: #5B7065;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid darkgray;
+    padding: 70px;
+}
+
+.quote-text {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+}
+
+.quote-author {
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+}
+
+.quote-text + .quote-author {
+    margin-top: 40px;
+}
+
+.quote-content + .btn {
+    margin-top: 40px;
+}
+
+.btn {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
